@@ -18,6 +18,8 @@ namespace Project.Database.Repositories
                 new Task { Id = 3, Title = "Task 3" },
                 new Task { Id = 4, Title = "Task 4" }
             };
+
+
         }
     }
 }

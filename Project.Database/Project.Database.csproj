@@ -7,10 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
     <Folder Include="Context\" />
     <Folder Include="Dtos\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>

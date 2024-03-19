@@ -1,3 +1,5 @@
+using Project.Api;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -8,10 +10,11 @@ internal class Program
 
         builder.Services.AddControllers();
         builder.Services.AddSwaggerGen();
+        builder.Services.AddServices();
+        builder.Services.AddRepositories();
 
         var app = builder.Build();
 
-        // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
